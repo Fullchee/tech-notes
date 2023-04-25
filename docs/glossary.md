@@ -219,6 +219,11 @@ I remember I had to implement Prim's Algo online version
 
 ## R
 
+### Render
+- React: generate HTML, CSS & JS
+- Browser
+	- takes HTML, CSS and JS and display the webpage
+
 ### RUM
 - [Real User Monitoring](https://docs.datadoghq.com/real_user_monitoring/)
 - Datadog
