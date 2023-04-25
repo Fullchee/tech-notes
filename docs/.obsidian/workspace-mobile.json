@@ -1,0 +1,185 @@
+{
+  "main": {
+    "id": "5880d22e4f3a0200",
+    "type": "split",
+    "children": [
+      {
+        "id": "2f127700e3c9e58e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bd790383bf3d0e94",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "web-dev/backend/database/sql/PSQL Performance/PSQL Debug Slow Queries.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "ba2740b1c26cc78e",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "7ecba671accb7c5a",
+        "type": "leaf",
+        "state": {
+          "type": "file-explorer",
+          "state": {
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "49a8c675e3c97952",
+        "type": "leaf",
+        "state": {
+          "type": "search",
+          "state": {
+            "query": "Goal",
+            "matchingCase": false,
+            "explainSearch": false,
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical"
+          }
+        }
+      },
+      {
+        "id": "c0ed7596b4e3c34e",
+        "type": "leaf",
+        "state": {
+          "type": "tag",
+          "state": {
+            "sortOrder": "frequency",
+            "useHierarchy": true
+          }
+        }
+      },
+      {
+        "id": "5d38f300581e2aa0",
+        "type": "leaf",
+        "state": {
+          "type": "starred",
+          "state": {}
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "right": {
+    "id": "7c6414fd6a9ef5c1",
+    "type": "mobile-drawer",
+    "children": [
+      {
+        "id": "c8c046b613bb9aab",
+        "type": "leaf",
+        "state": {
+          "type": "backlink",
+          "state": {
+            "file": "web-dev/backend/database/sql/PSQL Performance/PSQL Debug Slow Queries.md",
+            "collapseAll": false,
+            "extraContext": false,
+            "sortOrder": "alphabetical",
+            "showSearch": false,
+            "searchQuery": "",
+            "backlinkCollapsed": false,
+            "unlinkedCollapsed": false
+          }
+        }
+      },
+      {
+        "id": "09601f131b6b9834",
+        "type": "leaf",
+        "state": {
+          "type": "outgoing-link",
+          "state": {
+            "file": "web-dev/backend/database/sql/PSQL Performance/PSQL Debug Slow Queries.md",
+            "linksCollapsed": false,
+            "unlinkedCollapsed": true
+          }
+        }
+      },
+      {
+        "id": "7dcb70189ba97dcf",
+        "type": "leaf",
+        "state": {
+          "type": "outline",
+          "state": {
+            "file": "web-dev/backend/database/sql/PSQL Performance/PSQL Debug Slow Queries.md"
+          }
+        }
+      }
+    ],
+    "currentTab": 0
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "random-note:Open random note": false,
+      "workspaces:Manage workspace layouts": false
+    }
+  },
+  "active": "bd790383bf3d0e94",
+  "lastOpenFiles": [
+    "glossary.md",
+    "web-dev/backend/database/sql/PSQL Performance/PSQL Debug Slow Queries.md",
+    "web-dev/backend/database/sql/PSQL Performance/Indexing.md",
+    "web-dev/backend/database/sql/PSQL Performance/PSQL Query Optimization.md",
+    "web-dev/backend/database/sql/PSQL Performance/Database Locks.md",
+    "web-dev/backend/database/sql/PSQL Performance/Temp Tables/Materialized view.md",
+    "web-dev/backend/database/sql/PSQL Performance/Temp Tables/Flexibility of DROP - SET SCHEMA.md",
+    "web-dev/backend/database/sql/PSQL Performance/Temp Tables/CTE vs Materialized CTE vs temp table.md",
+    "web-dev/backend/database/sql/Example queries/sql-group-by-sum-0-even-if-no-rows.md",
+    "web-dev/backend/database/sql/Example queries/sql-dates.md",
+    "web-dev/backend/database/sql/Example queries/Hardcoded SQL.md",
+    "web-dev/backend/database/sql/Example queries/Find duplicate value in a column.md",
+    "soft-skills/inner-work/mental-health/Depression/Being less negative.md",
+    "web-dev/frontend/javascript/react/react-hooks.md",
+    "web-dev/frontend/javascript/react/implementing-react.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-windows.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-strings.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-relationships.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-ranges.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-group-by-sum-0-even-if-no-rows.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-dates.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-conditional-edge-cases.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-cheat-sheet.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-boolean.md",
+    "web-dev/backend/database/sql/PSQL Language/sql-array-and-json.md",
+    "web-dev/backend/database/sql/PSQL Language/dd4ba80a68ccfa70205a90823a83bdab.png",
+    "web-dev/backend/database/sql/PSQL Language/b8d0bfbaa7a1960bac01fa38cf0c7182.png",
+    "web-dev/backend/database/sql/PSQL Language/SQL Filter.md",
+    "web-dev/backend/database/sql/PSQL Language/4f091a049cccf838fa97c4f8ead2ce88.png",
+    "web-dev/backend/database/sql/PSQL Language/0dcda3d67b602afda521c9422556ba65.png",
+    "web-dev/backend/database/sql/PSQL Language/0d2b09974a338b8855490ef96c2d6960.png",
+    "soft-skills/inner-work/learning-how-to-learn/2022-anki.png",
+    "web-dev/backend/database/sql/PSQL Performance/Temp Tables",
+    "web-dev/leetcode/strings",
+    "web-dev/leetcode/c3311b3ebe34d9d282470670411c140b.png",
+    "web-dev/leetcode/bca86d1386521c33b613b214d6a2b7b1.png",
+    "web-dev/leetcode/89f233ea32dc5fba5edb096698d16c20.png",
+    "web-dev/leetcode",
+    "web-dev/frontend/Frontend Performance",
+    "web-dev/backend/Backend Performance",
+    "Family/Home ownership/Home Improvement/images/Painting/image-20230407161234346.png",
+    "Family/Home ownership/Home Improvement/images/Painting",
+    "Family/Home ownership/Home Improvement/images",
+    "Family/Home ownership/Home Improvement/Cleaning",
+    "Family/Car Ownership/Car Insurance/images/Car Insurance Types",
+    "Family/Car Ownership/Car Insurance/images"
+  ]
+}

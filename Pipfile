@@ -1,0 +1,21 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+mkdocs-material = "*"
+mkdocs-git-revision-date-plugin = "*"
+mkdocs-exclude = "*"
+pymdown-extensions = "*"
+mkdocs-linkcheck = "*"
+mkdocs-redirects = "*"
+
+[dev-packages]
+
+[scripts]
+start = "mkdocs serve"
+lint = "mkdocs-linkcheck ."
+
+[requires]
+python_version = "3.9"

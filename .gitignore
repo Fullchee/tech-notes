@@ -1,0 +1,11 @@
+site
+.ztr-directory
+
+docs/.obsidian/app.json
+docs/.obsidian/workspace
+docs/.obsidian/plugins/remember-cursor-position/cursor-positions.json
+docs/.obsidian/workspace.json
+
+.trash/
+.DS_Store
+

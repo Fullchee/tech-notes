@@ -1,0 +1,9 @@
+{
+  "theme": "system",
+  "cssTheme": "",
+  "accentColor": "",
+  "baseFontSize": 16,
+  "enabledCssSnippets": [
+    "hide_images"
+  ]
+}

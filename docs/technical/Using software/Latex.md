@@ -1,0 +1,1 @@
+[Google Docs: Latex notes](https://docs.google.com/document/d/1i0frS6rrrNYRyfCSbDIjv8JmehOB7Thsk4Ju4cdeUYE/edit)
