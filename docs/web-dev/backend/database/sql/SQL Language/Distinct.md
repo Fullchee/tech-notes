@@ -30,3 +30,7 @@ LIMIT 1
 >2. At the end, GROUP BY the `ON (col)`
 
 usually have `LIMIT 1` at the end
+
+if you want to actually use aggregation functions, you still need to group by
+
+`DISTINCT ON`  is like a sugary pillar that breaks down if you try to actually aggregate

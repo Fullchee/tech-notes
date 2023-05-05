@@ -48,7 +48,7 @@ FROM table_name
 
 ![0d2b09974a338b8855490ef96c2d6960.png](web-dev/backend/database/sql/SQL%20Language/0d2b09974a338b8855490ef96c2d6960.png)
 
-### ARRAY vs ARbRAY_AGG
+### ARRAY vs ARRAY_AGG
 
 When there's a `GROUP BY`, aggregate into an array
 
@@ -74,22 +74,48 @@ GROUP BY category;
 ```
 
 you can also `ARRAY_AGG(table_name)`
-- turns the table into an array of arrays
+
+
+#### Turning a table into a JSON array of objects
+
+If I have a table like
 ```sql
 WITH data(category, subcategory, amount) AS (
   VALUES ('Quota 1', 'BCR', 123),
          ('Quota 1', 'ICR', 456),
          ('BT', 'BT', 789)
 )
-SELECT ARRAY_AGG(data)
-FROM data
 ```
 
-> [!output of ARRAY_AGG(table_name)]-
-> |array_agg                                                      |
-> +---------------------------------------------------------------+
-> |{"(\"Quota 1\",BCR,123)","(\"Quota 1\",ICR,456)","(BT,BT,789)"}|
- 
+```
+|category|subcategory|amount|  
++--------+-----------+------+  
+|Quota 1 |BCR        |123   |  
+|Quota 1 |ICR        |456   |  
+|BT      |BT         |789   |
+```
+
+and I want the JSON
+
+```json
+[
+  { "category": "Quota 1", "subcategory": "BCR", "amount": 123 },
+  { "category": "Quota 1", "subcategory": "ICR", "amount": 456 },
+  { "category": "BT", "subcategory": "BT", "amount": 789 }
+]
+```
+
+>[!What should the query look like?]-
+>```diff
+>WITH data(category, subcategory, amount) AS (
+>  VALUES ('Quota 1', 'BCR', 123),
+>         ('Quota 1', 'ICR', 456),
+>         ('BT', 'BT', 789)
+>)
+>+ SELECT JSON_AGG(data)
+>+ FROM data
+>```
+
 
 ### JSONB to array
 
@@ -100,6 +126,32 @@ FROM data
 ```
 
 ### Index of value in array
+
+If you have an array of objects
+
+```sql
+WITH data(category, subcategory, amount) AS (
+  VALUES ('Quota 1', 'BCR', 123),
+         ('Quota 1', 'ICR', 456),
+         ('BT', 'BT', 789)
+)
+SELECT JSON_AGG(result)
+FROM data
+select * FROM json_array
+```
+
+```json
+[
+	{"name": "BCR", "value": 123},
+	{"name": "ICR", "value": 456},
+	{"name": "ACR", "value": 789}
+]
+```
+
+[!Get the ICR value]-
+
+
+
 
 ```sql
 ARRAY_POSITION('{"ICR", "ACR"}'::TEXT[], 'ICR')

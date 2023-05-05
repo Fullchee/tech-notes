@@ -30,26 +30,14 @@ grep -- --hello data.txt
 -   the `--` is optional in this case
 -   just a good habit, since branches usually have dashes
 
-### Command substitution
-
-```bash
-result=$(curl -X GET 'URL')
-```
-
-????
-
-### String substitution
-
-```bash
-${var}
-
-"$var_name"
-```
-
-????
-
--   TODO: what's the difference?
-
+>[!${} vs $()]-
+>`$()`: command substitution
+>- first evaluate this, then evaluate the rest of the line
+>- `echo $(pwd)/file.txt`
+>
+>`${}`: variable expansion
+>- `MY_VAR=toto`
+>- `echo ${MY_VAR}/file.txt`
 
 
 ## Loops
@@ -60,5 +48,22 @@ ${var}
 for var in "$@"
 do
     echo "$var"
+done
+```
+
+
+### Looping over every file in the directory
+
+```sh
+for FILE in *; do
+    ffmpeg -i "$(basename $FILE .mp4).mp4" -c copy "some_path/$(basename $FILE .mp4).aac";
+done
+```
+
+Convert
+
+```sh
+for FILE in *; do
+	ffmpeg -i "$(basename $FILE .aac).aac" -acodec libmp3lame "../bass-sectionals-mp3s/$(basename $FILE .aac).mp3";
 done
 ```

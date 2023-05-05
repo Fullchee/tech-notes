@@ -3,11 +3,13 @@
 columnar or column oriented databases
 
 [Hussein Nasser video](https://fullchee-reminders.netlify.app/link/1756)
+<iframe width="511" height="287" src="https://www.youtube.com/embed/Vw1fCeD06YI" title="Column vs Row Oriented Databases Explained" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
 ## Examples
 
--   Apache Cassandra
--   Sentry uses a columnar database too??
+- Apache Cassandra
+- Sentry uses a columnar database too??
+- Power BI
 
 ???
 
@@ -43,3 +45,11 @@ Writes and reads are complex
 -   OLAP
     -   online analytical processing
     -   business insights from data
+
+
+
+## Power BI
+- UI/display
+- analysis services
+	- in memory column store
+	- very efficient for analytics purposes

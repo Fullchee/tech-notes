@@ -62,3 +62,8 @@ nav ul {
 ## Loops
 
 ????
+
+
+>[!Why have an index.scss?]-
+>to control the import order
+>If you directly import from a react component, 
