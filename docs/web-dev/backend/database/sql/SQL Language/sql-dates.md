@@ -102,3 +102,10 @@ SELECT *
 FROM 
 WHERE UPPER('[2022-02-01, 2023-02-01)'::daterange)c
 ```
+
+
+```
+SELECT to_char(1, '9th');
+```
+
+[Template Patterns & Modifiers for Numeric Formatting in PostgreSQL](https://database.guide/template-patterns-modifiers-for-numeric-formatting-in-postgresql/)

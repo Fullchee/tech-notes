@@ -57,3 +57,6 @@ I personally don't use it to the fullest on my portfolio site
 ## Display different images depending on light/dark mode
 
 probably the `picture` element
+
+
+Compress images with ImageOptim

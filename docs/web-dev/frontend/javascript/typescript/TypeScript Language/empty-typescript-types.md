@@ -50,3 +50,14 @@ type NumberOrNull = NonNullable<number>;
 const myNum1: NumberOrNull = undefined;
 const myNum2: NotUndefinedButNullable<number> = undefined;
 ```
+
+
+
+
+>[!Void vs undefined]-
+>Void: the return value won't be observed/used, if you use this function, don't bother getting the return value
+>eg: setValue()
+>
+>undefined: the return value is still useful
+>const user = getUser()
+>if (!user) ...

@@ -1,4 +1,8 @@
-ll[ThreadPoolExecutor in Python: The Complete Guide](https://superfastpython.com/threadpoolexecutor-in-python/)
+Python only uses 1 core, regardless of # of threads
+
+## ThreadPoolExecutor
+
+[ThreadPoolExecutor in Python: The Complete Guide](https://superfastpython.com/threadpoolexecutor-in-python/)
 
 `.submit()` creates a future object
 

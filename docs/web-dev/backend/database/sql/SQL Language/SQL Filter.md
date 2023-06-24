@@ -1,7 +1,7 @@
 Standard ANSI SQL
 
 - partially aggregate data
-- `WHERE` clause for aggregate data
+- `WHERE` clause for aggregate data****
 	- vs `HAVING`
 
 ```sql

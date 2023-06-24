@@ -1,4 +1,5 @@
 # Browser Usage Tricks
+[eesel - The new tab for work](https://www.eesel.app/)
 
 ## Open a URL with an app
 

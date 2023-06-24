@@ -14,11 +14,11 @@ CREATE TABLE table_name(name1, name2) AS (
 -- |--------+-------+------------|
 -- | value1 | False | [123, 456] |
 -- | value2 | True  | [789]      |
-WITH table_name(name1, name2, hardcoded_array, hardcoded_json) AS (
+WITH cte_name (name1, name2, hardcoded_array, hardcoded_json) AS (
   VALUES ('value1', FALSE, ARRAY [123,456], '{}':JSON)
 )
 SELECT *
-FROM table_name
+FROM cte_name
 ```
 
 ### Hardcoded table in a FROM

@@ -21,7 +21,7 @@ Complex systems to support analytics and ML
 Your final data warehouse would always be a few days stale
 
 
-[!What is Delta Lake]-
+>[!What is Delta Lake]-
 >Apache Spark + Parquet file format
 > - data lake layers that support transactions and data quality controls
 > - data all in one place
@@ -55,3 +55,9 @@ Analytics engine
 ## Databricks vs Snowflake
 
 ????
+
+
+Starburst, Trino, Presto?
+
+- light query engine
+- don't need to migrate your data over to DataBricks/Snowflake

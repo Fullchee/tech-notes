@@ -27,3 +27,6 @@ SPiN Selling
 - Identify pain points
 - Sketch out solutions
 - Make suggestions
+
+
+“Can you tell me about a time when you disagreed with your team or manager about a technical decision? What was the context of the decision? What was your side and why did your team disagree? Who ‘won’? How did it play out?” If the candidate got their way, I always ask for another situation where the they went with the team’s opinion, or vice versa.

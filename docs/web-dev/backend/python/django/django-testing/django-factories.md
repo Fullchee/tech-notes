@@ -105,15 +105,7 @@ class PageFactory(factory.django.DjangoModelFactory):
     -   `lambda o, n: f"{o.number}_{n}"`
     -   Attribute + Sequence
 
-Other useful factory helpers
-
-```python
-price = factory.LazyAttribute(lambda: random.randrange(MIN_PRICE, MAX_PRICE + 1))
-```
-
-??? note "`.create()` vs `.build()`"
-PageFactory() <==> PageFactory.create()
-
-    PageFactory.create() creates a page
-
-    PageFactory.build() doesn't call `.save()` so no database entry is created in the database
+>[!.create() vs .build()]-
+>PageFactory() <==> PageFactory.create()
+>
+>PageFactory.build() doesn't call `.save()` so no database entry is created in the database

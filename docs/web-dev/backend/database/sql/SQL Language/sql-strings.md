@@ -27,4 +27,3 @@ use LIKE if possible
 
 - `LIKE` is part of the SQL standard
 - `~` is non-standard
-

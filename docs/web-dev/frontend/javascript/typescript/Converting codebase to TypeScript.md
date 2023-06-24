@@ -22,3 +22,5 @@ Install type packages for everything in your package.json
 [pnpm patch <pkg> | pnpm](https://pnpm.io/cli/patch)
 
 Total TypeScript VSCode plugin
+
+Use TypeScript in JS files with JSDoc!

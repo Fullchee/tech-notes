@@ -34,3 +34,17 @@ Parquet (data format)
 	- what was the weather that day? Do people buy more stuff on rainy days?
 
 Tool used: Apache Spark
+
+
+
+What’s the context for this databricks stuff?
+
+1. Commissions runs are moving to databricks
+2. So it makes sense to run restores all in databricks
+3. And then move the app database to databricks too
+4. And then the data
+
+Delta stuff 
+
+Tracking things over time
+

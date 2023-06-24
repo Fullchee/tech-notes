@@ -1,6 +1,7 @@
 ![aws-meme.png](aws-meme.png)
 
 
+AWS spend for a month: ~115k
 
 ## Setup
 

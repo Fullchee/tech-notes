@@ -1,5 +1,10 @@
 # Glossary
 
+<iframe width="320" height="562" src="https://www.youtube.com/embed/nlRNc2YbwR4" title="How To Get Up To Speed On A New Team IMPOSSIBLY FAST" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+- Organization
+- Terminology
+- Concepts
+- Context
 <span style="font-size: 2.5rem;">**[A](#a)** **[B](#b)** **[C](#c)** **[D](#d)** **[E](#e)** **[F](#f)** **[G](#g)** **[H](#h)** **[I](#i)** **[J](#j)** **[K](#k)** **[L](#l)** **[M](#m)** **[N](#n)** **[O](#o)** **[P](#p)** **[Q](#q)** **[R](#r)** **[S](#s)** **[T](#t)** **[U](#u)** **[V](#v)** **[W](#w)** **[X](#x)** **[Y](#y)** **[Z](#z)**</span>
 
 ## A
@@ -220,7 +225,13 @@ I remember I had to implement Prim's Algo online version
 ## R
 
 ### Render
-- React: generate HTML, CSS & JS
+- React
+	- [The Interactive Guide to Rendering in React](https://ui.dev/why-react-renders)
+	- calls your ~~function~~ component
+		- snapshot of component
+			- props, state, event handlers
+		- generate a description of the UI
+		- eventually updates the view
 - Browser
 	- takes HTML, CSS and JS and display the webpage
 

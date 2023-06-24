@@ -317,3 +317,48 @@ SELECT UNNEST(ARRAY[1,2,3,4,5]);
 UNION ALL
 SELECT UNNEST(ARRAY[-1, -2, -3, -4, -5])
 ```
+
+```sql
+WITH table_with_json (jsonb_column) AS (
+  VALUES ('[
+     {"name": "John", "age": 25},
+     {"name": "Jane", "age": 30},
+     {"name": "Alex", "age": 35}
+   ]'::JSONB)
+),
+--| names |
+--|-------|
+--| John  |
+--| Jane  |
+--| Alex  |
+names AS (
+  SELECT jsonb_array_elements(jsonb_column)->>'name' as name
+  FROM table_with_json
+)
+SELECT ARRAY (SELECT name FROM names) AS names
+```
+
+
+
+```sql
+--SELECT JSONB_AGG(jsonb_column->>'name')
+--FROM table_with_json
+```
+
+
+Turn `[0, 0.5, 1]` into
+
+```json
+[
+  {'label': 0, 'value': 0},
+  {'label': 0.5, 'value': 0.5},
+  {'label': 1, 'value': 1}
+]
+```
+
+```sql
+SELECT jsonb_agg(jsonb_build_object('label', elem, 'value', elem)) AS result_array
+FROM (
+  SELECT unnest(ARRAY[0, 0.5, 1]) AS elem
+) subquery;
+```
