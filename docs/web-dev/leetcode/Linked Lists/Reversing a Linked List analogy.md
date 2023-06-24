@@ -1,7 +1,6 @@
 Rick and Morty
 - Summer and Morty breaking Rick out of jail
 - and reversing the portals behind them
-- freezing time?
 
 ## Characters
 
@@ -35,4 +34,7 @@ While Summer is not `None`
 	1. Morty = Summer
 	2. Summer = Rick
 
-At the end of the loop, Rick.next = `None` (the house)
+The loop ends when Summer = `None`
+
+and Morty is at the first node
+- return Morty
